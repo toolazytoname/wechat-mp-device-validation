@@ -1,4 +1,4 @@
 interface:
   display_name: 微信小程序真机验收
-  short_description: 可靠执行预览二维码真机验收与恢复流程
-  default_prompt: 使用 $wechat-mp-device-validation 执行微信小程序预览版真机验收，记录每阶段证据并在二维码或误退出后恢复测试。
+  short_description: Preview 真机验收、证据记录与入口故障恢复
+  default_prompt: 使用 $wechat-mp-device-validation 执行微信小程序 preview 真机验收，选择 USB 或二维码入口，核对本轮构建身份，记录分阶段证据并在入口失效或误退出后恢复测试。
